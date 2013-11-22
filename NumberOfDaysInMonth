@@ -1,0 +1,92 @@
+<html>
+<head>
+	<title>Number of Days in Month</title>
+<script language="JavaScript" type="text/javascript">
+
+function displayDaysInMonth() 
+{
+var inputMonth=""
+var monthName=""
+var daysInMonth=0
+var monthName=document.getElementById("inputMonth"); 
+
+
+if (monthName = "January")
+{
+	daysInMonth = 31
+}
+else if (monthName = "February")
+{
+	daysInMonth = 28
+}
+
+else if (monthName = "March")
+{
+	daysInMonth = 31
+}
+
+else if (monthName = "April")
+{
+	daysInMonth = 30
+}
+
+else if (monthName = "May")
+{
+	daysInMonth = 31
+}
+
+else if (monthName = "June")
+{
+	daysInMonth = 30
+}
+
+else if (monthName = "July")
+{
+	daysInMonth = 31
+}
+
+else if (monthName = "August")
+{
+	daysInMonth = 31
+}
+
+else if (monthName = "September")
+{
+	daysInMonth = 30
+}
+
+else if (monthName = "October")
+{
+	daysInMonth = 31
+}
+
+else if (monthName = "November")
+{
+	daysInMonth = 30
+}
+
+
+else if (monthName = "December")
+{
+	daysInMonth = 31
+}
+
+console.log("There are " + daysInMonth + " days in " + monthName);
+alert("There are " + daysInMonth + " days in " + monthName);
+}
+</script>
+</head>
+<body>
+
+
+
+<form>
+Enter a month: <input type="text" id="inputMonth">
+</form>
+
+<button type="button" onclick="displayDaysInMonth()">Find numbers of days in this month
+</button>
+
+
+</body>
+</html>
