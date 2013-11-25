@@ -1,0 +1,87 @@
+<html>
+<head>
+	<title>Sean's Hand-Coded Blog</title>
+</head>
+<body>
+
+<div id="container" style="width:800px; margin:0 auto;">
+	<hr>
+	<div id="header">
+		<center> <h1>Sean's Hand-Coded Blog!</h1>
+				<h3>Login successful!</h3>
+		</center>
+	</div> <!-- closing header div -->
+
+	<hr>
+
+	<div id="block">
+
+		<div style="width:25%; float:left;">
+			
+			<div id="loginArea">Log in:
+					<script language="javascript">
+					// enter ID and password
+					function userlogin(form) {
+						if (form.id.value=="blog") { 
+						if (form.pass.value=="blog") {              
+						location="page2.html" 
+					} else {
+						alert("Invalid Password")
+					}
+						} else {  alert("Invalid UserID")
+					}
+					}
+					</script>
+
+					<center>
+					<table bgcolor="white" cellpadding="12"> 
+					
+						<tr><td><h4>UserID:</h4><form name="login"><input
+							name="id" type="text"></td></tr>
+					<tr><td><h4>Password:</h4><input name="pass"
+							type="password"></td></tr>
+					<tr><td><center><input type="button" value="Login"
+							onClick="userlogin(this.form)"><input
+							type="Reset"></form></td></tr></table></center> 
+				</div> <!-- closing login ares div -->
+
+				<div id="menu">
+					Menu
+				</div> <!-- closing menu div -->
+
+
+
+		</div> 
+
+		<div style="width:70%; float:right;">
+			<p>Content</p>
+			<div style="width:500px;border:1px solid black;">
+				<h3>It's another post!</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras elementum magna a magna molestie suscipit. Suspendisse varius pharetra dolor, et pretium massa auctor nec. Etiam eget viverra quam, id porttitor orci. In convallis tempor ipsum vel dapibus. Integer vulputate tincidunt orci eget vestibulum. Morbi rutrum nec massa eu ullamcorper. Duis tempus quam eu turpis semper porttitor. Aenean egestas magna ac elit vulputate aliquam. Praesent pulvinar vel felis ut mattis. Aliquam fermentum porttitor dolor non pulvinar. Curabitur tristique viverra lorem, ut gravida sem aliquet quis. Sed nunc nisi, posuere at lorem a, ullamcorper blandit sapien. Proin mattis luctus mauris in interdum. Duis dapibus varius euismod.
+				</p>
+			</div>
+			<p></p>
+			<div style="width:500px;border:1px solid black;">
+				<h3>It's a post!</h3>
+				<p>
+					Integer non felis ut turpis dictum gravida. Proin scelerisque iaculis tincidunt. Nunc vitae sapien eget ante tincidunt varius. Vestibulum in tortor facilisis, iaculis arcu sagittis, varius turpis. Nam porta feugiat tellus, quis tempus orci egestas eu. Integer tristique viverra felis et tempor. Integer dignissim tincidunt aliquam. In hac habitasse platea dictumst. Pellentesque sed orci tincidunt, consequat mauris ut, luctus ante.
+				</p>
+				<p></p>
+			</div>
+		</div> <!-- closing right div -->
+
+	</div> <!-- closing block div -->
+
+	<div id="footer" style="clear:both">
+		<hr>
+		<center>Footer</center>
+
+	</div> <!-- closing footer div -->
+
+
+</div> <!-- closing container div -->
+
+
+</body>
+</html>
